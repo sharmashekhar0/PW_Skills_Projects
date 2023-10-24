@@ -39,6 +39,10 @@
 	border-radius: 8px;
 }
 
+.college {
+	font-weight: 600;
+}
+
 .right-section {
 	background-color: var(--rightBgColor);
 	min-height: 100vh;
@@ -48,13 +52,11 @@
 	border-radius: 10px;
 }
 
-/* .profile-picture {
-	height: 80%;
-	width: 80%;
-	background-color: #fff;
-	margin: 0 auto;
-	border-radius: 8px;
-} */
+.profile-picture {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
 
 .profile {
 	align-self: center;
@@ -70,8 +72,8 @@
 }
 
 img {
-	min-height: 100%;
-	width: 100%;
+	min-height: 75%;
+	width: 90%;
 	border-radius: 8px;
 }
 
@@ -210,5 +212,4 @@ strong {
 	.align-right {
 		text-align: left;
 	}
-
 }
