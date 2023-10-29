@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	max-height: 100vh;
+	max-width: 100vw;
+	overflow: hidden;
+}
+
+.container {
+	height: 100vh;
+	max-width: 100vw;
+	font-size: 1rem;
+	font-family: "Montserrat", sans-serif;
+	background-image: url(./Assets/background-image.png);
+	background-size: cover;
+}
+
+button {
+	border: none;
+	background: none;
+	padding: 10px 20px;
+	font-size: 1rem;
+	border-radius: 6px;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
+.items-center {
+	align-items: center;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+ul {
+	list-style-type: none;
+	gap: 20px;
+	color: #ed017f;
+}
+
+h2 {
+	font-size: 4rem;
+}
+
+.left-section {
+	width: 40%;
+	padding: 5% 0;
+}
+
+.left-section > div {
+	gap: 20px;
+}
+
+.left-section .social-profiles {
+	gap: 10px;
+}
+
+.right-section {
+	width: 60%;
+	justify-content: end;
+}
+
+.right-section img {
+	max-width: 90%;
+}
+
+.hero-section {
+	height: 80%;
+	padding-left: 100px;
+}
+
+.border {
+	border: 1px solid red;
+}
+
+.navbar {
+	padding: 10px 100px;
+	height: 20%;
+	font-weight: 600;
+}
+
+.apply-btn,
+.service-btn {
+	color: #fff;
+	background-color: #ed017f;
+}
+
+.service-btn {
+	margin-left: 20px;
+}
+
+.loan-btn {
+	margin-left: 10px;
+	color: #ed017f;
+	border: 1px solid #ed017f;
+}
+
+.home-loan,
+.car-loan {
+	position: absolute;
+	width: 180px;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	height: 50px;
+	font-size: 1rem;
+	box-shadow: 0 0 25px 5px #ed017f70;
+	background-color: #fff;
+}
+
+.car-loan {
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.home-loan {
+	right: 80px;
+	top: -250px;
+	bottom: 0;
+	margin: auto;
+}
