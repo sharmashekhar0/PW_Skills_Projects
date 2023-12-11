@@ -3,8 +3,113 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Redbus homepage clone</title>
+		<title>Redbus Homepage Clone</title>
 		<link rel="stylesheet" href="style.css" />
+		<script
+			src="https://kit.fontawesome.com/138078193b.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700"
+			rel="stylesheet"
+		/>
 	</head>
-	<body></body>
+	<body>
+		<div class="navbar flex justify-between align-center">
+			<img class="logo" src="assets/rdc-redbus-logo.svg" alt="Logo" />
+			<ul class="flex ul-flex-col gap options font-500">
+				<li>
+					<img
+						class="header-img"
+						src="assets/rdc-redbus-logo.svg"
+						alt=""
+					/>
+					<span>Bus Tickets</span>
+				</li>
+				<li>
+					<img
+						class="header-img"
+						src="assets/ryde_vertical.svg"
+						alt=""
+					/>
+					<span>Cab Rental</span>
+				</li>
+				<li>
+					<img class="header-img" src="assets/ryde_car.svg" alt="" />
+					<span>Train Tickets</span>
+				</li>
+			</ul>
+			<ul class="flex support font-500">
+				<li class="flex align-center gap-10px">
+					<i class="fa-solid fa-headset icon-font"></i>
+					<span>Help</span>
+				</li>
+				<li class="flex align-center">
+					<i
+						class="fa-regular fa-circle-user icon-font right-10px"
+					></i>
+					<span>Account</span>
+					<i class="fa-solid fa-angle-down icon-20px"></i>
+				</li>
+			</ul>
+		</div>
+		<div class="main">
+			<img class="background-img" src="assets/HomeBannerImg.svg" alt="" />
+			<div class="booking-container">
+				<h1>India's No. 1 Online Bus Ticket Booking Site</h1>
+				<div class="flex from-to-container">
+					<div class="from-border relative">
+						<img class="header-img" src="assets/from.png" alt="" />
+						<span>From</span>
+						<div class="item-center hover-shadow div-absolute">
+							<i class="fa-solid fa-arrow-right-arrow-left"></i>
+						</div>
+					</div>
+					<div class="to-border">
+						<img class="header-img" src="assets/to.png" alt="" />
+						<span>To</span>
+					</div>
+					<div class="border">
+						<img class="header-img" src="assets/date.png" alt="" />
+						<span>Date</span>
+					</div>
+					<div class="color-red">
+						<p>SEARCH BUSES</p>
+					</div>
+				</div>
+				<div>
+					<h1 class="headline">Apno Ko, Sapno Ko, Kareeb Laaye</h1>
+				</div>
+			</div>
+			<div class="trendy-container">
+				<div class="flex justify-between align-center">
+					<span>TRENDING OFFERS</span>
+					<button class="view-btn">View All</button>
+				</div>
+				<!-- Build Some Card Block here -->
+			</div>
+		</div>
+		<div class="container">
+			<div class="referral-banner">
+				<img src="assets/webreferal.png" alt="" />
+			</div>
+			<div class="flex justify-between">
+				<div class="left-section">
+					<p class="tagline">NOW, GET MORE THAN</p>
+					<p class="tagline">JUST BUS TICKETS WITH</p>
+					<p class="tagline">REDBUS!</p>
+				</div>
+				<div class="relative flex justify-right">
+					<img
+						class="absolute bg"
+						src="assets/aboutUsImg.svg"
+						alt=""
+					/>
+					<img class="absolute" src="assets/rydePop.svg" alt="" />
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
