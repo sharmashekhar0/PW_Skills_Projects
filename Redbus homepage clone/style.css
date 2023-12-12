@@ -317,3 +317,30 @@ li:hover {
 .font-white {
 	color: #ffffff;
 }
+
+.primo-card {
+	background-color: #414893;
+	height: 160px;
+	border-radius: 20px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+.primo-card-heading {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.primo-para {
+	font-size: 15px;
+}
+
+.m-20 {
+	margin: 100px 0 80px 0;
+}
+
+.nowrap {
+	text-wrap: nowrap;
+}
