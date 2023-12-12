@@ -344,3 +344,43 @@ li:hover {
 .nowrap {
 	text-wrap: nowrap;
 }
+
+.font-36 {
+	font-size: 36px;
+}
+
+.partnered-section {
+	height: 300px;
+}
+
+.bg-grey {
+	background-color: #212121;
+}
+
+.rtc-section {
+	height: 200px;
+}
+
+.p-10 {
+	padding: 20px;
+}
+
+.rtc-heading {
+	font-size: 26px;
+}
+
+.operator-heading {
+	font-size: 26px;
+}
+
+.operator-section {
+	height: 400px;
+}
+
+.bus-operators {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	/* padding: 40px; */
+	margin: 40px 0;
+	gap: 40px;
+}
