@@ -54,6 +54,10 @@ ul {
 	height: 50px;
 }
 
+.cursor {
+	cursor: pointer;
+}
+
 .options {
 	flex: 3;
 }
@@ -138,7 +142,7 @@ li:hover {
 }
 
 .color-red {
-	background-color: red;
+	background-color: #d84e55;
 	height: 120px;
 	text-wrap: nowrap;
 	border-radius: 0 20px 20px 0;
@@ -150,22 +154,59 @@ li:hover {
 }
 
 .from-border {
-	border: 2px solid red;
+	border-right: 1px solid #d84e55;
 	height: 120px;
 	border-radius: 20px 0 0 20px;
 }
 
-.border {
-	border-top: 2px solid red;
-	border-bottom: 2px solid red;
+/* .border {
+	border-top: 2px solid #d84e55;
+	border-bottom: 2px solid #d84e55;
+	height: 120px;
+} */
+
+.to-border {
+	/* border-top: 2px solid #d84e55; */
+	/* border-bottom: 2px solid #d84e55; */
+	border-right: 1px solid #d84e55;
 	height: 120px;
 }
 
-.to-border {
-	border-top: 2px solid red;
-	border-bottom: 2px solid red;
-	border-right: 2px solid red;
-	height: 120px;
+.offer-box {
+	height: 180px;
+	background-color: #1d4da5;
+	padding: 15px;
+	width: 120%;
+	border-radius: 20px;
+}
+
+.w-full {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 80px;
+	overflow-y: hidden;
+}
+
+.tag {
+	background-color: #ffffff4b;
+	color: #fff;
+	padding: 5px 10px;
+	width: fit-content;
+	border-radius: 20px;
+}
+
+.offer-code {
+	background-color: #ffffff4b;
+	color: #fff;
+	padding: 4px 10px;
+	width: fit-content;
+	border: 1px dashed #fff;
+	border-radius: 5px;
+}
+
+.offer-img {
+	border-radius: 50%;
 }
 
 .relative {
@@ -195,13 +236,13 @@ li:hover {
 
 .background-img {
 	position: absolute;
-	top: 40px;
+	top: 110px;
 	z-index: -1;
 }
 
 .trendy-container {
 	background-color: #fff;
-	height: 400px;
+	height: 360px;
 	margin: 0 80px;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
 		rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -209,15 +250,23 @@ li:hover {
 	padding: 40px;
 }
 
+.fa-clone {
+	font-size: 25px;
+}
+
+.scroll {
+	overflow-x: scroll;
+}
+
 .trendy-container > div > span {
 	font-size: 36px;
 }
 
 .view-btn {
-	width: 140px;
-	font-size: 24px;
+	width: 120px;
+	font-size: 22px;
 	border-radius: 24px;
-	height: 48px;
+	height: 45px;
 	border: 1px solid rgb(104, 104, 104);
 	background-color: #fff;
 	color: blue;
@@ -235,12 +284,64 @@ li:hover {
 }
 
 .referral-banner {
-	margin: 40px 0;
+	margin: 100px 0;
 	/* background-color: black; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
+}
+
+.rental-div {
+	margin: 40px 0;
+	height: 60px;
+}
+
+.rental-border {
+	border-bottom: 1px solid rgba(132, 132, 132, 0.5);
+	/* padding: 20px; */
+}
+
+.h-full {
+	height: 100%;
+}
+
+.bus-border {
+	border-bottom: 3px solid #d84e55;
+	padding: 12px;
+}
+
+.cab-book-btn {
+	height: 60px;
+	width: 25%;
+	border: none;
+	background-color: #d84e55;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	border-radius: 15px;
+	margin-top: 50px;
+}
+
+.m-b10px {
+	margin-bottom: 20px;
+}
+
+.rental-img {
+	height: 35px;
+	margin-left: 10px;
+}
+.m-l10px {
+	/* height: 35px; */
+	margin-left: 10px;
+}
+.m-r10px {
+	height: 35px;
+	margin-right: 20px;
+}
+
+.red-bold {
+	color: #d84e55;
 }
 
 .absolute {
@@ -274,10 +375,11 @@ li:hover {
 
 .enjoy-the-app {
 	height: 400px;
-	background-color: #bd5656;
+	/* background-color: #bd5656; */
 	margin-bottom: 100px;
 	border-radius: 50px;
 	padding: 40px;
+	overflow: hidden;
 }
 
 .enjoy-the-app > span {
@@ -286,12 +388,67 @@ li:hover {
 }
 
 .m-10 {
-	margin-bottom: 450px;
+	margin-bottom: 160px;
 }
 
 .app-container {
 	height: 80%;
 	gap: 80px;
+}
+
+.app-heading {
+	color: #d84e55c0;
+}
+
+.light-red {
+	color: rgba(0, 0, 0, 0.651);
+}
+
+.h-hr {
+	height: 120%;
+}
+
+.font-26 {
+	font-size: 26px;
+}
+
+.pink {
+	color: #d84e55;
+}
+
+.book-btn {
+	background-color: #d84e55;
+	border: none;
+	padding: 0 25px;
+	height: 50px;
+	border-radius: 10px;
+}
+
+.general-border {
+	border-bottom: 3px solid #d84e55;
+}
+
+.question:hover {
+	border-bottom: 3px solid #cf5359a8;
+}
+.route-hr {
+	opacity: 0.3;
+}
+
+.opacity {
+	opacity: 0.7;
+}
+
+.p-10px {
+	padding: 10px;
+}
+
+.install-absolute {
+	position: absolute;
+	/* top: 10px; */
+	left: 0;
+	top: 0;
+	z-index: -1;
 }
 
 .quick-box {
@@ -465,9 +622,22 @@ li:hover {
 
 .footer {
 	background-color: #f7f7f7;
-	height: 600px;
+	/* height: 600px; */
 	margin-top: 100px;
 	padding: 40px 80px;
+	padding-bottom: 0;
+}
+
+.superhit {
+	background-color: #822025;
+}
+
+.bus300 {
+	background-color: #35a16e;
+}
+
+.rs200 {
+	background-color: #46adc6;
 }
 
 .font-20 {

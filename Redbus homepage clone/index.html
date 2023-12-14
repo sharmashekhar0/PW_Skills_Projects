@@ -19,6 +19,7 @@
 	<body>
 		<div class="navbar flex justify-between align-center">
 			<img class="logo" src="assets/rdc-redbus-logo.svg" alt="Logo" />
+			<hr class="h-50 route-hr" />
 			<ul class="flex ul-flex-col gap options font-500">
 				<li>
 					<img
@@ -37,7 +38,11 @@
 					<span>Cab Rental</span>
 				</li>
 				<li>
-					<img class="header-img" src="assets/ryde_car.svg" alt="" />
+					<img
+						class="header-img"
+						src="https://st.redbus.in/web/images/layout/rail_vertical.svg"
+						alt=""
+					/>
 					<span>Train Tickets</span>
 				</li>
 			</ul>
@@ -80,15 +85,90 @@
 					</div>
 				</div>
 				<div>
-					<h1 class="headline">Apno Ko, Sapno Ko, Kareeb Laaye</h1>
+					<!-- <h1 class="headline">Apno Ko, Sapno Ko, Kareeb Laaye</h1> -->
 				</div>
 			</div>
-			<div class="trendy-container">
+			<div class="trendy-container flex flex-col justify-between">
 				<div class="flex justify-between align-center">
 					<span>TRENDING OFFERS</span>
 					<button class="view-btn">View All</button>
 				</div>
-				<!-- Build Some Card Block here -->
+				<div
+					class="flex font-white scroll justify-between gap w-full p-10"
+				>
+					<div class="flex offer-box align-center gap-20px">
+						<img
+							class="offer-img"
+							src="assets/trending offer 1.png"
+							alt=""
+						/>
+						<div class="flex flex-col gap-10px">
+							<span class="tag">Bus</span>
+							<span class="bold"
+								>Save up to Rs 250 on bus tickets</span
+							>
+							<span>Valid till 31 Dec</span>
+							<div class="flex align-center gap-20px">
+								<span class="offer-code">FIRST</span>
+								<i class="fa-regular fa-clone"></i>
+							</div>
+						</div>
+					</div>
+					<div class="flex offer-box align-center gap-20px superhit">
+						<img
+							class="offer-img"
+							src="assets/trending offer 2.png"
+							alt=""
+						/>
+						<div class="flex flex-col gap-10px">
+							<span class="tag">Bus</span>
+							<span class="bold"
+								>Save up to Rs 300 on AP, TS routes</span
+							>
+							<span>Valid till 31 Dec</span>
+							<div class="flex align-center gap-20px">
+								<span class="offer-code">SUPERHIT</span>
+								<i class="fa-regular fa-clone"></i>
+							</div>
+						</div>
+					</div>
+					<div class="flex offer-box align-center gap-20px bus300">
+						<img
+							class="offer-img"
+							src="assets/trending offer 3.png"
+							alt=""
+						/>
+						<div class="flex flex-col gap-10px">
+							<span class="tag">Bus</span>
+							<span class="bold"
+								>Save up to Rs 200 on MP, Delhi, Gujarat,</span
+							>
+							<span>Valid till 31 Dec</span>
+							<div class="flex align-center gap-20px">
+								<span class="offer-code">BUS200</span>
+								<i class="fa-regular fa-clone"></i>
+							</div>
+						</div>
+					</div>
+					<div class="flex offer-box align-center gap-20px rs200">
+						<img
+							class="offer-img"
+							src="assets/trending offer 4.png"
+							alt=""
+						/>
+						<div class="flex flex-col gap-10px">
+							<span class="tag">Bus</span>
+							<span class="bold">
+								Save up to Rs 200 in Kerala routes.</span
+							>
+							<span>Valid till 31 Dec</span>
+							<div class="flex align-center gap-20px">
+								<span class="offer-code">RB200</span>
+								<i class="fa-regular fa-clone"></i>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="container">
@@ -115,46 +195,90 @@
 				</div>
 			</div>
 			<div class="m-10">
-				<div class="flex justify-between w-50">
-					<div class="flex align-center">
-						<img src="assets/ryde_vertical.svg" alt="" />
-						<span>Cab/Bus Rental</span>
-					</div>
-					<div class="flex align-center">
+				<div
+					class="flex justify-between w-50 rental-div align-center rental-border"
+				>
+					<div
+						class="flex align-center gap-10px font-20 bus-border cursor"
+					>
 						<img
+							class="rental-img m-l10px"
+							src="assets/ryde_vertical.svg"
+							alt=""
+						/>
+						<span class="red-bold bold">Cab/Bus Rental</span>
+					</div>
+					<hr class="h-50 route-hr" />
+					<div
+						class="flex align-center gap-10px font-20 m-r10px cursor train-ticket-hover"
+					>
+						<img
+							class="rental-img"
 							src="https://st.redbus.in/web/images/layout/rail_vertical.svg"
 							alt=""
 						/>
 						<span>Train Tickets</span>
 					</div>
 				</div>
-				<div class="flex flex-col">
-					<span
+				<div class="flex flex-col gap-20px">
+					<span class="m-b10px"
 						>Rent Cabs, Tempo Travellers & Buses with best
 						drivers</span
 					>
-					<span>Outstation</span>
-					<span>Hourly Rental</span>
-					<span>Airport Transfers</span>
+					<div class="flex align-center gap-20px bold">
+						<img src="assets/ryde_car.svg" alt="" />
+						<span>Outstation</span>
+					</div>
+					<div class="flex align-center gap-20px bold">
+						<img src="assets/ryde_car_hourly.svg" alt="" />
+						<span>Hourly Rental</span>
+					</div>
+					<div class="flex align-center gap-20px bold">
+						<img src="assets/ryde_airport_transport.svg" alt="" />
+						<span>Airport Transfers</span>
+					</div>
+					<button class="cab-book-btn">
+						Book Cab / Bus Rental
+						<i class="fa-solid fa-arrow-right m-l10px"></i>
+					</button>
 				</div>
-				<button>Book Cab / Bus Rental</button>
 			</div>
-			<div class="enjoy-the-app flex flex-col justify-between">
+			<div class="enjoy-the-app flex flex-col justify-between relative">
+				<img class="install-absolute" src="assets/appInstallbg.svg" alt="">
 				<span>ENJOY THE APP!</span>
 				<div class="flex app-container">
 					<div class="flex flex-col quick-box">
-						<span>Quick Access</span>
-						<span>Superior live tracking</span>
+						<div
+							class="font-24 flex gap-10px align-center app-heading"
+						>
+							<i class="fa-solid fa-circle-check"></i>
+							<span class="light-red">Quick Access</span>
+						</div>
+						<div
+							class="font-24 flex gap-10px align-center app-heading"
+						>
+							<i class="fa-solid fa-circle-check"></i>
+							<span class="light-red"
+								>Superior live tracking</span
+							>
+						</div>
 						<div class="flex justify-between h-50">
-							<div class="flex flex-col justify-between">
-								<span>4.5</span>
+							<div class="flex flex-col justify-between gap-10px">
+								<div class="font-24 bold light-red">
+									<span>4.5</span>
+									<i class="fa-solid fa-star"></i>
+								</div>
 								<span>50M+ downloads</span>
-								<span>Play Store</span>
+								<span class="bold light-red">Play Store</span>
 							</div>
-							<div class="flex flex-col justify-between">
-								<span>4.6</span>
+							<hr class="h-hr route-hr" />
+							<div class="flex flex-col justify-between gap-10px">
+								<div class="font-24 bold light-red">
+									<span>4.6</span>
+									<i class="fa-solid fa-star"></i>
+								</div>
 								<span>50M+ downloads</span>
-								<span>App Store</span>
+								<span class="bold light-red">App Store</span>
 							</div>
 						</div>
 					</div>
@@ -398,39 +522,50 @@
 				</div>
 				<div class="unbeatable item-center">
 					<div class="flex justify-between w-100">
-						<div class="flex gap">
+						<div class="flex gap align-center">
 							<img
 								class="reddeal"
 								src="assets/rdc-redbus-logo.svg"
 								alt=""
 							/>
-							<div class="flex flex-col gap">
-								<span
-									>Unlock Unbeatable Exclusive redDeals! 20%
-									OFF</span
+							<div class="flex flex-col gap-20px bold light-red">
+								<span class="font-24 bold"
+									>Unlock Unbeatable Exclusive redDeals!
+									<span class="font-26 pink"
+										>20% OFF</span
+									></span
 								>
 								<span
-									>3979 Deals | 1702 Bus Operators | 167753
+									><span class="pink">3979</span> Deals |
+									<span class="pink">1702</span> Bus Operators
+									|
+									<span class="pink">167753</span>
 									Routes</span
 								>
 							</div>
 						</div>
-						<button>Book now</button>
+						<button class="font-20 bold font-white book-btn">
+							Book now
+						</button>
 					</div>
 				</div>
 			</div>
 			<div class="flex flex-col gap">
 				<span class="font-36">FAQs</span>
 				<div class="flex justify-between w-60">
-					<span>General</span>
-					<span>Ticket-related</span>
-					<span>Payment</span>
-					<span>Cancellation & Refund</span>
-					<span>Insurance</span>
+					<span class="general-border p-10px cursor">General</span>
+					<span class="p-10px question cursor">Ticket-related</span>
+					<span class="p-10px question cursor">Payment</span>
+					<span class="p-10px question cursor"
+						>Cancellation & Refund</span
+					>
+					<span class="p-10px question cursor">Insurance</span>
 				</div>
 				<div class="flex flex-col gap">
 					<div class="question-div item-center">
-						<div class="w-100 flex justify-between align-center">
+						<div
+							class="w-100 flex justify-between align-center cursor"
+						>
 							<span
 								>Can I track the location of my booked bus
 								online?</span
@@ -439,7 +574,9 @@
 						</div>
 					</div>
 					<div class="question-div item-center">
-						<div class="w-100 flex justify-between align-center">
+						<div
+							class="w-100 flex justify-between align-center cursor"
+						>
 							<span
 								>What are the advantages of purchasing a bus
 								ticket with redBus?</span
@@ -448,13 +585,17 @@
 						</div>
 					</div>
 					<div class="question-div item-center">
-						<div class="w-100 flex justify-between align-center">
+						<div
+							class="w-100 flex justify-between align-center cursor"
+						>
 							<span>Why book bus tickets online on redBus?</span>
 							<span>+</span>
 						</div>
 					</div>
 					<div class="question-div item-center">
-						<div class="w-100 flex justify-between align-center">
+						<div
+							class="w-100 flex justify-between align-center cursor"
+						>
 							<span
 								>Do I need to create an account on the redBus
 								site to book my bus ticket?</span
@@ -463,13 +604,17 @@
 						</div>
 					</div>
 					<div class="question-div item-center">
-						<div class="w-100 flex justify-between align-center">
+						<div
+							class="w-100 flex justify-between align-center cursor"
+						>
 							<span>Does bus booking online cost me more?</span>
 							<span>+</span>
 						</div>
 					</div>
 					<div class="question-div item-center">
-						<div class="w-100 flex justify-between align-center">
+						<div
+							class="w-100 flex justify-between align-center cursor"
+						>
 							<span
 								>How can I get the discounts on the bus
 								booking?</span
@@ -478,13 +623,17 @@
 						</div>
 					</div>
 					<div class="question-div item-center">
-						<div class="w-100 flex justify-between align-center">
+						<div
+							class="w-100 flex justify-between align-center cursor"
+						>
 							<span>What's New in Bus Booking on redBus?</span>
 							<span>+</span>
 						</div>
 					</div>
 					<div class="question-div item-center">
-						<div class="w-100 flex justify-between align-center">
+						<div
+							class="w-100 flex justify-between align-center cursor"
+						>
 							<span
 								>Can I book a Government bus ticket on
 								redBus?</span
@@ -496,18 +645,27 @@
 			</div>
 		</div>
 		<div class="footer">
-			<div class="flex flex-col justify-between top">
+			<div class="flex flex-col justify-between top cursor">
 				<div class="flex flex-col justify-between gap-20px">
-					<span class="bold font-20">Top Bus Routes</span>
-					<hr />
+					<div class="flex justify-between light-red">
+						<span class="bold font-20">Top Bus Routes</span>
+						<i class="fa-solid fa-angle-down icon-20px"></i>
+					</div>
+					<hr class="route-hr" />
 				</div>
 				<div class="flex flex-col justify-between gap-20px">
-					<span class="bold font-20">Top Cities</span>
-					<hr />
+					<div class="flex justify-between light-red">
+						<span class="bold font-20">Top Cities</span>
+						<i class="fa-solid fa-angle-down icon-20px"></i>
+					</div>
+					<hr class="route-hr" />
 				</div>
 				<div class="flex flex-col justify-between gap-20px">
-					<span class="bold font-20">Top Operators</span>
-					<hr />
+					<div class="flex justify-between light-red">
+						<span class="bold font-20">Top Operators</span>
+						<i class="fa-solid fa-angle-down icon-20px"></i>
+					</div>
+					<hr class="route-hr" />
 				</div>
 			</div>
 			<div class="flex justify-between w-100 m-15px gap">
@@ -517,7 +675,7 @@
 						src="assets/rdc-redbus-logo.svg"
 						alt=""
 					/>
-					<span
+					<span class="opacity"
 						>redBus is the world's largest online bus ticket booking
 						service trusted by over 25 million happy customers
 						globally. redBus offers bus ticket booking through its
@@ -527,55 +685,73 @@
 				</div>
 				<div class="flex flex-col flex-1">
 					<span class="bold font-20">About redBus</span>
-					<span>About us</span>
-					<span>Investor Relations</span>
-					<span>Contact us</span>
-					<span>Mobile version</span>
-					<span>redBus on mobile</span>
-					<span>Sitemap</span>
-					<span>Offers</span>
-					<span>Careers</span>
-					<span>Values</span>
+					<span class="cursor opacity">About us</span>
+					<span class="cursor opacity">Investor Relations</span>
+					<span class="cursor opacity">Contact us</span>
+					<span class="cursor opacity">Mobile version</span>
+					<span class="cursor opacity">redBus on mobile</span>
+					<span class="cursor opacity">Sitemap</span>
+					<span class="cursor opacity">Offers</span>
+					<span class="cursor opacity">Careers</span>
+					<span class="cursor opacity">Values</span>
 				</div>
 				<div class="flex flex-col flex-1">
 					<span class="bold font-20">Info</span>
-					<span>T&C</span>
-					<span>Privacy policy</span>
-					<span>FAQ</span>
-					<span>Blog</span>
-					<span>Bus operator registration</span>
-					<span>Agent registration</span>
-					<span>Insurance partner</span>
-					<span>User agreement</span>
+					<span class="cursor opacity">T&C</span>
+					<span class="cursor opacity">Privacy policy</span>
+					<span class="cursor opacity">FAQ</span>
+					<span class="cursor opacity">Blog</span>
+					<span class="cursor opacity"
+						>Bus operator registration</span
+					>
+					<span class="cursor opacity">Agent registration</span>
+					<span class="cursor opacity">Insurance partner</span>
+					<span class="cursor opacity">User agreement</span>
 				</div>
 				<div class="flex flex-col flex-1">
 					<span class="bold font-20">Global Sites</span>
-					<span>India</span>
-					<span>Singapore</span>
-					<span>Malaysia</span>
-					<span>Indonesia</span>
-					<span>Peru</span>
-					<span>Colombia</span>
+					<span class="cursor opacity">India</span>
+					<span class="cursor opacity">Singapore</span>
+					<span class="cursor opacity">Malaysia</span>
+					<span class="cursor opacity">Indonesia</span>
+					<span class="cursor opacity">Peru</span>
+					<span class="cursor opacity">Colombia</span>
 				</div>
 				<div class="flex flex-col flex-1">
 					<span class="bold font-20">Our Partners</span>
-					<span>Goibibo Bus</span>
-					<span>Goibibo Hotels</span>
-					<span>Makemytrip Bus</span>
-					<span>Makemytrip Hotels</span>
+					<span class="cursor opacity">Goibibo Bus</span>
+					<span class="cursor opacity">Goibibo Hotels</span>
+					<span class="cursor opacity">Makemytrip Bus</span>
+					<span class="cursor opacity">Makemytrip Hotels</span>
 				</div>
 			</div>
 			<div>
-				<hr />
+				<hr class="route-hr" />
 				<div class="flex justify-between copyright">
 					<span
 						>Ⓒ 2023 Redbus India Pvt Ltd. All rights reserved</span
 					>
 					<div class="flex justify-between gap-20px">
-						<img src="assets/social_facebook_new.svg" alt="" />
-						<img src="assets/social_linkedin_new.svg" alt="" />
-						<img src="assets/social_twitter_new.svg" alt="" />
-						<img src="assets/social_instagram_new.svg" alt="" />
+						<img
+							class="cursor"
+							src="assets/social_facebook_new.svg"
+							alt=""
+						/>
+						<img
+							class="cursor"
+							src="assets/social_linkedin_new.svg"
+							alt=""
+						/>
+						<img
+							class="cursor"
+							src="assets/social_twitter_new.svg"
+							alt=""
+						/>
+						<img
+							class="cursor"
+							src="assets/social_instagram_new.svg"
+							alt=""
+						/>
 					</div>
 				</div>
 			</div>
